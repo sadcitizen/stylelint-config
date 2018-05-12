@@ -23,5 +23,8 @@
   "homepage": "https://github.com/sadcitizen/stylelint-config#readme",
   "devDependencies": {
     "eslint": "^4.19.1"
+  },
+  "dependencies": {
+    "stylelint-order": "^0.8.1"
   }
 }
