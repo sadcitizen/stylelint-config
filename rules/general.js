@@ -19,6 +19,5 @@ module.exports = {
     'no-empty-source': true, // disallow empty sources
     'no-eol-whitespace': true, // disallow end-of-line whitespace
     'no-extra-semicolons': true, // disallow extra semicolons
-    'no-invalid-double-slash-comments': true, // disallow double-slash comments (//...) which are not supported by CSS
     'no-unknown-animations': true // disallow unknown animations
 };
