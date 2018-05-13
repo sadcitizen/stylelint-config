@@ -3,7 +3,9 @@ module.exports = {
     'max-empty-lines': [ // limit the number of adjacent empty lines
         1,
         {
-            ignore: ['comments']
+            ignore: [
+                'comments'
+            ]
         }
     ],
     'max-line-length': [ // limit the length of a line

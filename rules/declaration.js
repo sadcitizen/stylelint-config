@@ -2,13 +2,17 @@ module.exports = {
     'declaration-block-no-duplicate-properties': [ // disallow duplicate properties within declaration blocks
         true,
         {
-            ignore: ['consecutive-duplicates-with-different-values']
+            ignore: [
+                'consecutive-duplicates-with-different-values'
+            ]
         }
     ],
     'declaration-block-no-redundant-longhand-properties': [ // disallow longhand properties that can be combined into one shorthand property
         true,
         {
-            ignoreShorthands: ['/^grid.*/']
+            ignoreShorthands: [
+                '/^grid.*/'
+            ]
         }
     ],
     'declaration-block-no-shorthand-property-overrides': true, // disallow shorthand properties that override related longhand properties

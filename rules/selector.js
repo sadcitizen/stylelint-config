@@ -22,7 +22,9 @@ module.exports = {
     'selector-max-type': [ // limit the number of type selectors in a selector
         1,
         {
-            ignore: ['child']
+            ignore: [
+                'child'
+            ]
         }
     ],
     'selector-max-universal': 1, // limit the number of universal selectors in a selector
