@@ -18,7 +18,7 @@ module.exports = {
     'selector-max-empty-lines': 0, // limit the number of adjacent empty lines within selectors
     'selector-max-id': 0, // limit the number of id selectors in a selector
     'selector-max-pseudo-class': 2, // limit the number of pseudo-classes in a selector
-    'selector-max-specificity': '0,3,0',
+    'selector-max-specificity': '0,3,0', // limit the specificity of selectors
     'selector-max-type': [ // limit the number of type selectors in a selector
         1,
         {
