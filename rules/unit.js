@@ -5,6 +5,12 @@ module.exports = {
     'unit-whitelist': [ // specify a whitelist of allowed units
         'em',
         'rem',
-        'px'
+        'px',
+        '%',
+        's',
+        'vh',
+        'vw',
+        'vmin',
+        'vmax'
     ]
 };
