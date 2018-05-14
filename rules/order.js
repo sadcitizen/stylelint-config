@@ -136,16 +136,18 @@ module.exports = {
 
         'box-shadow',
 
+        // Tables
+        'table-layout',
+        'border-collapse',
+        'border-spacing',
+        'empty-cells',
+
+        // Background
         'background',
-        {
-            order: 'flexible',
-            properties: [
-                'background-color',
-                'background-image',
-                'background-repeat',
-                'background-position'
-            ]
-        },
+        'background-color',
+        'background-image',
+        'background-repeat',
+        'background-position',
         'cursor',
 
         // Padding
@@ -157,15 +159,24 @@ module.exports = {
 
         'vertical-align',
 
-        // Text
         'color',
 
+        // Font
         'font',
-        'font-family',
+        {
+            order: 'flexible',
+            properties: [
+                'font-family',
+                'font-weight',
+                'font-style',
+                'font-variant'
+            ]
+        },
+
         'font-size',
         'line-height',
-        'font-weight',
 
+        // Text
         {
             order: 'flexible',
             properties: [
@@ -173,21 +184,55 @@ module.exports = {
                 'text-indent',
                 'text-transform',
                 'text-decoration',
+                'text-decoration-line',
+                'text-decoration-style',
+                'text-decoration-color',
+                'text-underline-position',
+                'text-transform',
+                'text-shadow',
+                'text-overflow',
                 'word-spacing',
                 'letter-spacing',
-                'white-space'
+                'white-space',
+                'word-break',
+                'line-break',
+                'hyphens'
             ]
         },
+
+        // Lists
+        'list-style',
+        'list-style-image',
+        'list-style-position',
+        'list-style-type',
 
         // Pseudos
         'content',
         'quotes',
 
+        // Transforms
+        'transform',
+        'transform-box',
+        'transform-origin',
+        'transform-style',
+        'zoom',
+
         // Transitions
         'transition',
-        'transition-property',
+        'transition-delay',
         'transition-duration',
+        'transition-property',
         'transition-timing-function',
-        'transition-delay'
+
+        // Animations
+        'animation',
+        'animation-delay',
+        'animation-direction',
+        'animation-duration',
+        'animation-fill-mode',
+        'animation-name',
+        'animation-iteration-count',
+        'animation-play-state',
+        'animation-timing-function'
     ]
 };
