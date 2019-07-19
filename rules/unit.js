@@ -6,6 +6,7 @@ module.exports = {
         'em',
         'rem',
         'px',
+        'deg',
         '%',
         's',
         'vh',
