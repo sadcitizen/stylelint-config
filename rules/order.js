@@ -15,54 +15,74 @@ module.exports = {
 
         // Flexbox
         'flex',
-        'flex-basis',
-        'flex-grow',
-        'flex-shrink',
-        'flex-flow',
-        'flex-wrap',
         'flex-direction',
-        'justify-content',
-        'align-self',
-        'align-items',
-        'align-content',
+        'flex-wrap',
+        {
+            order: 'flexible',
+            properties: [
+                'justify-content',
+                'align-self',
+                'align-items',
+                'align-content'
+            ]
+        },
+        {
+            order: 'flexible',
+            properties: [
+                'flex-basis',
+                'flex-grow',
+                'flex-shrink',
+                'flex-flow'
+            ]
+        },
         'order',
 
         // Grid Layout
         'grid',
-        'grid-area',
-        'grid-auto-columns',
-        'grid-auto-flow',
-        'grid-auto-rows',
-        'grid-gap',
-        'grid-column',
-        'grid-column-end',
-        'grid-column-gap',
-        'grid-column-start',
-        'grid-row',
-        'grid-row-end',
-        'grid-row-gap',
-        'grid-row-start',
-        'grid-template',
-        'grid-template-areas',
-        'grid-template-columns',
-        'grid-template-rows',
+        {
+            order: 'flexible',
+            properties: [
+                'grid-area',
+                'grid-auto-columns',
+                'grid-auto-flow',
+                'grid-auto-rows',
+                'grid-gap',
+                'grid-column',
+                'grid-column-end',
+                'grid-column-gap',
+                'grid-column-start',
+                'grid-row',
+                'grid-row-end',
+                'grid-row-gap',
+                'grid-row-start',
+                'grid-template',
+                'grid-template-areas',
+                'grid-template-columns',
+                'grid-template-rows'
+            ]
+        },
 
         // Columns
         'columns',
-        'column-width',
-        'column-count',
-        'column-fill',
-        'column-gap',
-        'column-rule',
-        'column-rule-color',
-        'column-rule-style',
-        'column-rule-width',
-        'column-span',
-        'break-after',
-        'break-before',
-        'break-inside',
-        'orphans',
-        'widows',
+        {
+            order: 'flexible',
+            properties: [
+                'column-width',
+                'column-count',
+                'column-fill',
+                'column-gap',
+                'column-rule',
+                'column-rule-color',
+                'column-rule-style',
+                'column-rule-width',
+                'column-span',
+                'break-after',
+                'break-before',
+                'break-inside',
+                'orphans',
+                'widows'
+            ]
+        },
 
         'float',
         'clear',
@@ -78,13 +98,23 @@ module.exports = {
 
         // Width
         'width',
-        'min-width',
-        'max-width',
+        {
+            order: 'flexible',
+            properties: [
+                'min-width',
+                'max-width'
+            ]
+        },
 
         // Height
         'height',
-        'min-height',
-        'max-height',
+        {
+            order: 'flexible',
+            properties: [
+                'min-height',
+                'max-height'
+            ]
+        },
 
         'overflow',
         'overflow-x',
@@ -202,9 +232,14 @@ module.exports = {
 
         // Lists
         'list-style',
-        'list-style-image',
-        'list-style-position',
-        'list-style-type',
+        {
+            order: 'flexible',
+            properties: [
+                'list-style-image',
+                'list-style-position',
+                'list-style-type'
+            ]
+        },
 
         // Pseudos
         'content',
@@ -212,27 +247,42 @@ module.exports = {
 
         // Transforms
         'transform',
-        'transform-box',
-        'transform-origin',
-        'transform-style',
-        'zoom',
+        {
+            order: 'flexible',
+            properties: [
+                'transform-box',
+                'transform-origin',
+                'transform-style',
+                'zoom'
+            ]
+        },
 
         // Transitions
         'transition',
-        'transition-delay',
-        'transition-duration',
-        'transition-property',
-        'transition-timing-function',
+        {
+            order: 'flexible',
+            properties: [
+                'transition-delay',
+                'transition-duration',
+                'transition-property',
+                'transition-timing-function'
+            ]
+        },
 
         // Animations
         'animation',
-        'animation-delay',
-        'animation-direction',
-        'animation-duration',
-        'animation-fill-mode',
-        'animation-name',
-        'animation-iteration-count',
-        'animation-play-state',
-        'animation-timing-function'
+        {
+            order: 'flexible',
+            properties: [
+                'animation-delay',
+                'animation-direction',
+                'animation-duration',
+                'animation-fill-mode',
+                'animation-name',
+                'animation-iteration-count',
+                'animation-play-state',
+                'animation-timing-function'
+            ]
+        }
     ]
 };
