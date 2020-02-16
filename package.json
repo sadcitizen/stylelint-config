@@ -22,9 +22,12 @@
   },
   "homepage": "https://github.com/sadcitizen/stylelint-config#readme",
   "devDependencies": {
-    "eslint": "^4.19.1"
+    "eslint": "^6.8.0"
+  },
+  "peerDependencies": {
+    "stylelint": "^13.2.0"
   },
   "dependencies": {
-    "stylelint-order": "^0.8.1"
+    "stylelint-order": "^4.0.0"
   }
 }
