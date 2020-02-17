@@ -9,6 +9,7 @@ module.exports = {
         'deg',
         '%',
         's',
+        'ms',
         'vh',
         'vw',
         'vmin',
